@@ -1,37 +1,37 @@
-# Simple server
 
-This is a simple Java web server with corresponding HTML script.
+# COMP3050 - TDJJ
 
-The simple_server2 folder contains a Java web server.
-* Compile with javac Test.java
-* Run with java Test
-* Check it's working by visiting http://localhost:8000/test
+## Available Endpoints
+- /test : Used to check if the server is running
+- /hello : Returns a hello message
 
-The simple_script2.html file has a web form that talks to the Java server.
+## Team Members
+| Name | Role |
+|-----|-----|
+| Daniel               | Team Manager |
+| Thomas               | Team Member |
+| Rithykun (Jing)      | Team Member |
+| Nguyen (Jayden)      | Team Member ||
 
-Can you get it working on your own laptop?
+## How to Contribute
 
-Yes it shows a response in the terminal
+1. Fork the repository
+2. Clone your fork
 
-# Questions
+   git clone <your-fork-url>
 
-Examine version 1 of the Java code, in the simple_server1 folder.
-What was added to simple_server1 to make version 2? Why?
+3. Create a new branch
 
-getResponseHeaders were added which specifies a content type and connection to allow the server to connect to a html website. Therefore allowing a response from the server when the send button is clicked.
+   git checkout -b feature-name
 
-What does commenting out some of the added parts of simple_server2 do?
-Does it still work, and why or why not?
+4. Make your changes and commit
 
+   git add .
+   git commit -m "Add new feature"
 
-# Task
+5. Push to your fork
 
-Make a copy of these files and modify them to send JSON data instead.
+   git push origin feature-name
 
-What can you send?
+6. Open a Pull Request to the main repository
 
-# Portfolio
-
-Remember to keep these new files and any notes you've made.
-These will be useful for your practical portfolio report.
-Make your notes a useful learning resource for someone reading them later.
