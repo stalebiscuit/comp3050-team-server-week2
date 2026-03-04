@@ -23,7 +23,7 @@ public class MyHandler implements HttpHandler {
         headers.set("Connection", "close");
 
         // Send response body.
-        String json = "{ \"name\": \"Daniel\", \"gold\": 3, \"silver\": 2, \"bronze\": 1}";
+        String json = "{\"name\":\"Japan\",\"gold\":27,\"silver\":14,\"bronze\":17,\"emerald\":58}";        
         //String response = "This is the response for server 2";
         System.out.println(json);
         he.sendResponseHeaders(200, json.length());

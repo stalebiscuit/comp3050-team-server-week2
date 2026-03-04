@@ -9,6 +9,7 @@
     Gold:   <input id="gold"   type="text" length="5" /> <br/>
     Silver: <input id="silver" type="text" length="5" /> <br/>
     Bronze: <input id="bronze" type="text" length="5" /> <br/>
+    Emerald: <input id="emerald" type="text" length="5" /> <br/>
     <input type="button" value="Send" onclick="fillName()" />
     <input type="reset" value="Clear" />
     </form>
@@ -23,6 +24,7 @@
         document.getElementById('gold').value = data.gold;
         document.getElementById('silver').value = data.silver;
         document.getElementById('bronze').value = data.bronze;
+        document.getElementById('emerald').value = data.emerald;
      })
      .catch(error => console.error('Error:', error));
   }
